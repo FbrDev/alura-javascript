@@ -1,0 +1,88 @@
+body {
+    background-color: #ff5722;
+    font-family: Arial;
+  }
+  
+  section {
+    display: block;
+    margin: 100px auto;
+    max-width: 500px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px 8px rgba(0, 0, 0, 0.59);
+    background-color: #fff;
+  }
+  
+  header {
+    background-image: url('https://www.dualshockers.com/static/uploads/2016/03/871597-pokemon-wallpaper.jpg');
+    background-size: cover;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  header img {
+      border-radius: 50%;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    margin-left: 15px;
+  }
+  
+  div {
+    margin: 15px;
+    border: 1px solid black;
+    background-color: #bac3d6;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li span {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  li:nth-child(even) {
+    background-color: #d3d3d3;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #e1e1e1;
+  }
+  
+  span {
+    font-size: 24px;
+  }
+
+  li a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #000;
+  }
